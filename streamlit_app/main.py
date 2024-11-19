@@ -154,3 +154,8 @@ if data is not None and not data.empty:
 
 else:
     st.warning("Please upload a file or select stock symbols to proceed with the backtest.")
+
+footer_html = """<div style='text-align: center;'>
+  <p>Developed with ❤️ by SHIVAN ANAND</p>
+</div>"""
+st.markdown(footer_html, unsafe_allow_html=True)
